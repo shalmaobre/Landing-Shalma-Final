@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'ArchivoNarrowBold';
+    src: url(../fonts/ArchivoNarrow-Bold.otf);
+}
+
+@font-face {
+    font-family: 'ArchivoNarrowRegular';
+    src: url(../fonts/ArchivoNarrow-Regular.otf);
+    padding: 
+}
+
+body {
+    background: #fff;
+    font-family: 'ArchivoNarrowRegular', Arial, sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+    padding: 3em 0em;
+}
+
+.row {
+    margin-right:0;
+    margin-left: 0;
+   
+}
+
+
+header img{
+    margin: 4px auto;
+    width: 90%;
+    max-width: 420px;
+
+}
+
+/*titulo*/
+#titulo {
+    background:url(../IMAGEN/family.jpg);
+    background-size:cover;
+    text-align: center;
+}
+
+#titulo h1 {
+    font-family: 'ArchivoNarrowBold', Arial, sans-serif;
+    color: #FFF;
+    font-size: 47px;
+    margin: 2.5em auto;
+    display: inline-block;
+    line-height: 1.2em;.
+   
+}
+
+#titulo h1 strong {
+    color: #0099CC;
+}
+
+#titulo button {
+    background: #1b75bc;
+    color: #FFF;
+    border: 0;
+    border-radius: 35px;
+    font-size: 20px;
+    padding: .6em 2em;
+    margin: -1em;
+    margin-bottom: 6em;
+}
+
+#fondo1{
+    background: rgba(100, 100, 100,.5);
+    margin: -9em auto;
+}
+#descripcion {
+    background: #fff;
+    background-size: cover;
+    color:#FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#descripcion h2  {
+    color: #1b75bc;
+    font-size: 36px;
+    margin-top: -.3em;
+}
+
+#descripcion p{
+    color: #6c6d71;
+    display: flex;
+    height: 45%;
+    padding: 2vw;
+    font-size: 20px;
+    text-align:justify;
+}
+
+
+#beneficios, #testimonios {
+    position: relative;
+}  
+
+#beneficios h2, #testimonios h2{
+    text-align: center;
+    font-family: 'ArchivoNarrowBold', Arial, sans-serif;
+    color: #1b75bc;    
+    font-size: 50px;
+    display: inline-block;
+    width: 100%;
+}
+
+#testimonios{
+    background-color: #f0f2f2;
+}
+
+#objetivos {
+    background-color: #6c6d71;
+    color: #FFF;
+    position: relative;
+    padding: 2em;
+}
+
+#objetivos img{
+    width: 20%;
+    margin: 1em;
+}
+
+#objetivos h2{
+    font-size: 40px;
+    margin: 0em;
+}
+#objetivos p{
+    text-align: justify;
+    font-size: 21px;
+}
+
+#Beneficios {
+    background-color: #1b75bc;
+    color: #FFF;
+    position: relative;
+    padding: 2em;
+}
+#Beneficios p{
+    font-size: 18px;
+    margin: 2em;
+}
+#Beneficios img{
+    width: 20%;
+    margin: 1em;
+}
+
+#Beneficios h2{
+    font-size: 40px;
+    margin: 0em;
+}
+
+#info h3{
+    text-align: center;
+    font-family:'ArchivoNarrowBold', Arial, sans-serif;
+    color: #FFF; 
+    margin: .8px;
+}
+
+#ejemplos {
+    background-color: #f0f2f2;
+    position: relative;
+    margin: -3em auto;
+
+
+}
+
+#formulario h1{
+    color: #000038;
+    text-align: center;
+    font-family:'ArchivoNarrowBold', Arial, sans-serif;
+    font-size: 60.5px;
+    width: 100%
+}
+
+#formulario h2{
+    text-align: center;
+    font-family: 'ArchivoNarrowBold', Arial, sans-serif;
+    color: #FFF;
+    font-size: 35px;
+    width: 100%
+}
+
+#ejemplos img{
+    width: 28vw;
+    height: 28vw;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: .8em 0em;
+}
+
+#personas {
+    color: #FFF;
+    font-size: 14px;
+    padding: .8em 2em;
+    margin: 5px;
+}
+#personas p{
+    color:#6c6d71;
+    text-align: left;
+}
+
+#cuadro {
+    background-color: #000038;
+    padding: 1em .1em;
+    color: #FFF;
+    border: 0;
+    border-radius: 35px;
+    font-size: 19px;
+    margin: 20px;  
+}
+
+.row{
+    text-align: center;
+}
+
+.dato {
+    color:#FFF;
+    display:inline-flex;
+    padding-left: .2em .2em;
+    position: center;
+}
+
+#anuncio {
+    color: #000038;
+    text-align: center;
+    font-size: 20px;
+}
+
+#clic button {
+    background: #0099CC;
+    color: #FFF;
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 3vw 16vw;
+    margin: 1em 2em;
+    align-items: center;
+    width: 85%;
+}
+
+.relleno {
+    padding: 2em,
+
+}
+
+.box p{
+    margin: .2em;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+footer img {
+        width: 7%;
+        margin:1em;
+    }
+#anuncio p{
+    margin: .8em;
+    padding: .5em 0em;
+    color:#fff;
+    text-align: justify;
+}
+
+#anuncio h2{
+    color: #fff;
+    font-size: 32px;
+}
+
+#anuncio button{
+    background: #6c6d71;
+    color: #FFF;
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 3vw 16vw;
+    margin: 1em 2em;
+    align-items: center;
+}
+#final img{
+    width: 67vw;
+}
+footer {
+        background-color: #1B75BC;
+        position: relative;
+        padding: 20px 0px 0px;
+    }
+
+@media only screen and (min-width:768px){
+.container{
+    padding: 9em 0em;
+}
+#fondo1{
+    margin: -16em auto;
+    padding: 5em;
+}
+#letras .container {
+    padding: 5vw;
+}
+
+.box2 img{
+        width: 33vw;
+        margin-right: 31em;
+    }
+ .box1 img{
+        width: 33vw;
+        margin-left: 64vw;
+        margin-top: -4em;
+    }
+#descripcion p{
+        font-size: 26px;
+        padding: .1vw;
+}
+
+#descripcion h2{
+    margin-top: -.3em;
+}
+
+#objetivos{
+    padding: 5em;
+    margin:-1em;
+}
+
+#objetivos .container{
+    padding: 0em 0em;
+}
+
+#Beneficios .container{
+    padding: 0em 0em;
+}
+#Beneficios{
+    padding: 1em;
+    margin: -1em;
+}
+#Beneficios p {
+    font-size: 18px;
+}
+
+
+#cajita img{
+        width: 10%;}
+
+#clic button{
+        padding: 2vw 10vw;
+        margin: 1em 6em; 
+   }
+   
+#testimonios{
+    padding: 3em;
+}
+#testimonios h2{
+    font-size: 55px;
+}  
+
+#ejemplos .container{
+    padding: 0em 0em;
+}
+
+#personas img{
+    width: 20vw;
+    height: 20vw;
+    padding: 4em 0em;
+    margin-right:21em;
+}
+
+#personas p{
+    padding-left: 21vw;
+    margin-top: -24vw;
+}
+#cajita img{
+    width: 3%;
+    margin: 1em;
+}
+
+
+
+#final img{
+    width: 32%;
+
+}
+#footer img{
+    margin-bottom: 2vw;
+}
+
+@media only screen and (min-width:1024px){
+
+#titulo {
+    background:url(../IMAGEN/familyipad.jpg);
+    background-size:cover;
+    text-align: center;
+}
+#fondo1{
+    margin: -12em -3em;
+    padding: 8em;
+}
+#descripcion h2{
+    margin: 1em;
+
+}
+
+#beneficios {
+    font-size: 28px;
+}
+
+#personas img{
+    margin-right: 0vw;
+    width: 15vw;
+    height: 15vw;
+
+}
+#personas p{
+    margin-top: 0vw;
+    padding-left: 1vw;
+    text-align: justify;
+}
+
+#anuncio p{
+    padding: 1.5em 0em;
+    padding-right: 23em;
+    font-size: 25px;
+}
+#anuncio button{
+    padding: 1vw 4vw;
+    margin: 1em ;
+    margin-left: 47em;
+}
+#anuncio h2{
+    font-size: 44px;
+}
+}
+
